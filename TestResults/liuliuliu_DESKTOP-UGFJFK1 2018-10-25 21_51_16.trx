@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7d13a97c-fd4f-46f3-8d68-bd530dd9743e" name="liuliuliu@DESKTOP-UGFJFK1 2018-10-25 21:51:16" runUser="DESKTOP-UGFJFK1\liuliuliu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="92c6d37f-904a-496d-b6fd-c521d8a47794">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="liuliuliu_DESKTOP-UGFJFK1 2018-10-25 21_51_16">
+      <DeploymentItem filename="d:\demo-unit-test\demo-unit-test\bin\Debug\demo-unit-test.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-10-25T21:51:16.7474742+07:00" queuing="2018-10-25T21:51:18.7587233+07:00" start="2018-10-25T21:51:18.9354795+07:00" finish="2018-10-25T21:51:34.3687277+07:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="2" executed="2" passed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-UGFJFK1" outcome="Error" timestamp="2018-10-25T21:51:34.3677370+07:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InputIsSunday_DateReturnedIsMonday" storage="d:\demo-unit-test\unit-test-payment\bin\debug\unit-test-payment.dll" id="499f0a3b-839d-22bb-7d8f-107fb5709857">
+      <Execution id="ed4214e9-225f-451c-8fa8-a0df00981835" />
+      <TestMethod codeBase="d:/demo-unit-test/unit-test-payment/bin/Debug/unit-test-payment.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unit_test_payment.PaymentTest, unit-test-payment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InputIsSunday_DateReturnedIsMonday" />
+    </UnitTest>
+    <UnitTest name="ValidInput_DateReturned30DaysInFuture" storage="d:\demo-unit-test\unit-test-payment\bin\debug\unit-test-payment.dll" id="9f65b607-c1e5-a482-bd47-2869415e345d">
+      <Execution id="d605cb2b-250d-414c-9607-ad550ac744d9" />
+      <TestMethod codeBase="d:/demo-unit-test/unit-test-payment/bin/Debug/unit-test-payment.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unit_test_payment.PaymentTest, unit-test-payment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidInput_DateReturned30DaysInFuture" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9f65b607-c1e5-a482-bd47-2869415e345d" executionId="d605cb2b-250d-414c-9607-ad550ac744d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="499f0a3b-839d-22bb-7d8f-107fb5709857" executionId="ed4214e9-225f-451c-8fa8-a0df00981835" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d605cb2b-250d-414c-9607-ad550ac744d9" testId="9f65b607-c1e5-a482-bd47-2869415e345d" testName="ValidInput_DateReturned30DaysInFuture" computerName="DESKTOP-UGFJFK1" duration="00:00:00.0258231" startTime="2018-10-25T21:51:19.0587795+07:00" endTime="2018-10-25T21:51:19.9742188+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d605cb2b-250d-414c-9607-ad550ac744d9">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed4214e9-225f-451c-8fa8-a0df00981835" testId="499f0a3b-839d-22bb-7d8f-107fb5709857" testName="InputIsSunday_DateReturnedIsMonday" computerName="DESKTOP-UGFJFK1" duration="00:00:14.3945089" startTime="2018-10-25T21:51:19.9742188+07:00" endTime="2018-10-25T21:51:34.3687277+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed4214e9-225f-451c-8fa8-a0df00981835">
+    </UnitTestResult>
+  </Results>
+</TestRun>

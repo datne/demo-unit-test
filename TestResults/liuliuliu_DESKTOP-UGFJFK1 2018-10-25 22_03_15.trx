@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9b2c0a8c-77ed-4502-b41e-c578c1150cc7" name="liuliuliu@DESKTOP-UGFJFK1 2018-10-25 22:03:15" runUser="DESKTOP-UGFJFK1\liuliuliu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="92c6d37f-904a-496d-b6fd-c521d8a47794">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="liuliuliu_DESKTOP-UGFJFK1 2018-10-25 22_03_15">
+      <DeploymentItem filename="d:\demo-unit-test\demo-unit-test\bin\Debug\demo-unit-test.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-10-25T22:03:15.2817989+07:00" queuing="2018-10-25T22:03:17.0074698+07:00" start="2018-10-25T22:03:17.1793036+07:00" finish="2018-10-25T22:03:18.2264389+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InputIsSunday_DateReturnedIsMonday" storage="d:\demo-unit-test\unit-test-payment\bin\debug\unit-test-payment.dll" id="499f0a3b-839d-22bb-7d8f-107fb5709857">
+      <Execution id="9c8420b9-688c-4221-bc80-9c031f88bb05" />
+      <TestMethod codeBase="d:/demo-unit-test/unit-test-payment/bin/Debug/unit-test-payment.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unit_test_payment.PaymentTest, unit-test-payment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InputIsSunday_DateReturnedIsMonday" />
+    </UnitTest>
+    <UnitTest name="ValidInput_DateReturned30DaysInFuture" storage="d:\demo-unit-test\unit-test-payment\bin\debug\unit-test-payment.dll" id="9f65b607-c1e5-a482-bd47-2869415e345d">
+      <Execution id="2f952073-4143-4df9-aaf4-5297b2a956b6" />
+      <TestMethod codeBase="d:/demo-unit-test/unit-test-payment/bin/Debug/unit-test-payment.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="unit_test_payment.PaymentTest, unit-test-payment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidInput_DateReturned30DaysInFuture" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9f65b607-c1e5-a482-bd47-2869415e345d" executionId="2f952073-4143-4df9-aaf4-5297b2a956b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="499f0a3b-839d-22bb-7d8f-107fb5709857" executionId="9c8420b9-688c-4221-bc80-9c031f88bb05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2f952073-4143-4df9-aaf4-5297b2a956b6" testId="9f65b607-c1e5-a482-bd47-2869415e345d" testName="ValidInput_DateReturned30DaysInFuture" computerName="DESKTOP-UGFJFK1" duration="00:00:00.0244774" startTime="2018-10-25T22:03:17.2886529+07:00" endTime="2018-10-25T22:03:18.1170900+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f952073-4143-4df9-aaf4-5297b2a956b6">
+    </UnitTestResult>
+    <UnitTestResult executionId="9c8420b9-688c-4221-bc80-9c031f88bb05" testId="499f0a3b-839d-22bb-7d8f-107fb5709857" testName="InputIsSunday_DateReturnedIsMonday" computerName="DESKTOP-UGFJFK1" duration="00:00:00.0008938" startTime="2018-10-25T22:03:18.1170900+07:00" endTime="2018-10-25T22:03:18.1327154+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c8420b9-688c-4221-bc80-9c031f88bb05">
+    </UnitTestResult>
+  </Results>
+</TestRun>

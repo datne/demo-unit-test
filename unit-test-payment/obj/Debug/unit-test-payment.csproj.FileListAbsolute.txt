@@ -1,0 +1,7 @@
+d:\demo-unit-test\unit-test-payment\obj\Debug\unit-test-payment.csprojResolveAssemblyReference.cache
+d:\demo-unit-test\unit-test-payment\bin\Debug\unit-test-payment.dll
+d:\demo-unit-test\unit-test-payment\bin\Debug\unit-test-payment.pdb
+d:\demo-unit-test\unit-test-payment\bin\Debug\demo-unit-test.exe
+d:\demo-unit-test\unit-test-payment\bin\Debug\demo-unit-test.pdb
+d:\demo-unit-test\unit-test-payment\obj\Debug\unit-test-payment.dll
+d:\demo-unit-test\unit-test-payment\obj\Debug\unit-test-payment.pdb

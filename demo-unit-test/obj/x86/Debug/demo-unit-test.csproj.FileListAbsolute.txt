@@ -1,0 +1,4 @@
+d:\demo-unit-test\demo-unit-test\bin\Debug\demo-unit-test.exe
+d:\demo-unit-test\demo-unit-test\bin\Debug\demo-unit-test.pdb
+d:\demo-unit-test\demo-unit-test\obj\x86\Debug\demo-unit-test.exe
+d:\demo-unit-test\demo-unit-test\obj\x86\Debug\demo-unit-test.pdb
